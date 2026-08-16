@@ -40,7 +40,7 @@ if user_input:
                     # if message_chunk.text  
         )
 
-st.session_state["message_history"].append({
-    "role": "assistant",
-    "content": ai_message
-})
+    st.session_state["message_history"].append({
+        "role": "assistant",
+        "content": ai_message
+    })
